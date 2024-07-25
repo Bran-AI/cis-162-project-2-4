@@ -1,0 +1,179 @@
+/* Basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #a2bbd8 ;
+}
+
+/* Container styling */
+.container {
+    display: table;
+    width: 100%;
+}
+
+/* Navbar styling */
+.navbar {
+    display: table-cell;
+    width: 200px;
+    background: #333;
+    vertical-align: top;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background: #8b8585;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Main content styling */
+main {
+    display: table-cell;
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid-item {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Types of Beta Gallery */
+
+.gallery{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+    width: 280px;
+}
+
+.gallery .description {
+    padding:10px;
+    text-align: center; 
+}
+
+.gallery img{
+    width:100%;
+    height: auto;
+}
+
+
+
+
+/* Contact Us Form Styling */
+   
+/*feildset, legend,*/
+    feildset{
+        margin: 2em 0;
+        padding: 1em 2em;
+        border:solid 2px #000;
+        border-radius: 6px;
+        min-width: 200px;
+    }
+
+    legend{
+        font-size: 1.25em;
+        padding: 0 .25em;
+        color:#000
+    }
+
+/* Labels */
+label{
+    display:block;
+    margin-top: 1em;
+}
+
+
+/*text area, select, input*/    
+
+input{
+    padding: .5em;
+    border: solid #000;
+    width:100%;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+input [type="text"]{
+border: none;
+border-bottom: 2px solid black;
+}
+input[type="email"] {
+    width: 100%;
+    border-radius: 20px;
+}
+textarea{
+    resize:none;
+    min-height: 8em;
+    min-width: 100%;
+    padding:.5em;
+    border:solid;
+    border-radius:20px
+}
+select{
+    border:solid;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* buttons*/
+
+    input[type="button"], input[type="submit"], input[type="reset"] {
+        margin: 4px 2px;
+        padding: 16px 32px;
+        text-decoration: none;
+        width: 80%;
+        cursor: pointer
+    }
